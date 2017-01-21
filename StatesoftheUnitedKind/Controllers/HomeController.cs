@@ -22,7 +22,7 @@ namespace StatesoftheUnitedKind.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Find me here.";
 
             return View();
         }

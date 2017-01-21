@@ -3,7 +3,12 @@
     ViewBag.Title = "States";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
+@{ 
+    Model.Id++;
+}
 
 <h2>@Model.Name</h2>
-
+<ul>
+    <li>State number: @Model.Id</li>
+    <li>Joined the Union: @Model.yearFounded</li>    
+</ul>
